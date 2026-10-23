@@ -1,0 +1,9 @@
+product_id,sku_id,sku_name,published_price,source_url
+Google-Apps,1010020027,Business Starter,yes,https://developers.google.com/workspace/admin/licensing/v1/how-tos/products
+Google-Apps,1010020028,Business Standard,yes,https://developers.google.com/workspace/admin/licensing/v1/how-tos/products
+Google-Apps,1010020025,Business Plus,yes,https://developers.google.com/workspace/admin/licensing/v1/how-tos/products
+Google-Apps,1010020026,Enterprise Standard,no (contact sales),https://developers.google.com/workspace/admin/licensing/v1/how-tos/products
+Google-Apps,1010020020,Enterprise Plus,no (contact sales),https://developers.google.com/workspace/admin/licensing/v1/how-tos/products
+Google-Apps,1010020030,Frontline Starter,no,https://developers.google.com/workspace/admin/licensing/v1/how-tos/products
+Google-Apps,1010020031,Frontline Standard,no,https://developers.google.com/workspace/admin/licensing/v1/how-tos/products
+Google-Apps,1010020034,Frontline Plus,no,https://developers.google.com/workspace/admin/licensing/v1/how-tos/products

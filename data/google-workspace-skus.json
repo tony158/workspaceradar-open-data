@@ -1,0 +1,63 @@
+{
+  "source": "https://github.com/tony158/workspaceradar-open-data",
+  "license": "CC-BY-4.0",
+  "publisher": "WorkspaceRadar, https://workspaceradar.com/",
+  "rows": [
+    {
+      "product_id": "Google-Apps",
+      "sku_id": "1010020027",
+      "sku_name": "Business Starter",
+      "published_price": "yes",
+      "source_url": "https://developers.google.com/workspace/admin/licensing/v1/how-tos/products"
+    },
+    {
+      "product_id": "Google-Apps",
+      "sku_id": "1010020028",
+      "sku_name": "Business Standard",
+      "published_price": "yes",
+      "source_url": "https://developers.google.com/workspace/admin/licensing/v1/how-tos/products"
+    },
+    {
+      "product_id": "Google-Apps",
+      "sku_id": "1010020025",
+      "sku_name": "Business Plus",
+      "published_price": "yes",
+      "source_url": "https://developers.google.com/workspace/admin/licensing/v1/how-tos/products"
+    },
+    {
+      "product_id": "Google-Apps",
+      "sku_id": "1010020026",
+      "sku_name": "Enterprise Standard",
+      "published_price": "no (contact sales)",
+      "source_url": "https://developers.google.com/workspace/admin/licensing/v1/how-tos/products"
+    },
+    {
+      "product_id": "Google-Apps",
+      "sku_id": "1010020020",
+      "sku_name": "Enterprise Plus",
+      "published_price": "no (contact sales)",
+      "source_url": "https://developers.google.com/workspace/admin/licensing/v1/how-tos/products"
+    },
+    {
+      "product_id": "Google-Apps",
+      "sku_id": "1010020030",
+      "sku_name": "Frontline Starter",
+      "published_price": "no",
+      "source_url": "https://developers.google.com/workspace/admin/licensing/v1/how-tos/products"
+    },
+    {
+      "product_id": "Google-Apps",
+      "sku_id": "1010020031",
+      "sku_name": "Frontline Standard",
+      "published_price": "no",
+      "source_url": "https://developers.google.com/workspace/admin/licensing/v1/how-tos/products"
+    },
+    {
+      "product_id": "Google-Apps",
+      "sku_id": "1010020034",
+      "sku_name": "Frontline Plus",
+      "published_price": "no",
+      "source_url": "https://developers.google.com/workspace/admin/licensing/v1/how-tos/products"
+    }
+  ]
+}

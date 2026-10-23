@@ -1,0 +1,41 @@
+{
+  "name": "workspaceradar-open-data",
+  "title": "Google Workspace list prices in euros and Licensing API SKUs — open data",
+  "description": "Google's published standard list prices per user per month in EUR for Business Starter, Standard and Plus (annual and Flexible plans), and the Licensing API product/SKU identifiers, each row with its source page and check date. Published by WorkspaceRadar under CC BY 4.0.",
+  "homepage": "https://workspaceradar.com/google-workspace-pricing",
+  "version": "2026-10-23",
+  "licenses": [{"name": "CC-BY-4.0", "path": "https://creativecommons.org/licenses/by/4.0/", "title": "Creative Commons Attribution 4.0 International"}],
+  "contributors": [{"title": "WorkspaceRadar", "path": "https://workspaceradar.com/", "role": "publisher"}],
+  "keywords": ["google-workspace", "pricing", "licenses", "sku", "eur", "open-data"],
+  "resources": [
+    {
+      "name": "google-workspace-list-prices-eur",
+      "path": "data/google-workspace-list-prices-eur.csv",
+      "format": "csv", "mediatype": "text/csv", "encoding": "utf-8",
+      "schema": {"fields": [
+        {"name": "sku_id", "type": "string"},
+        {"name": "edition", "type": "string"},
+        {"name": "plan", "type": "string", "constraints": {"enum": ["ANNUAL", "FLEXIBLE"]}},
+        {"name": "currency", "type": "string"},
+        {"name": "price_per_user_month", "type": "number"},
+        {"name": "price_per_user_year", "type": "number"},
+        {"name": "effective_from", "type": "date"},
+        {"name": "checked_on", "type": "date"},
+        {"name": "source_url", "type": "string", "format": "uri"},
+        {"name": "source_note", "type": "string"}
+      ], "primaryKey": ["sku_id", "plan", "effective_from"]}
+    },
+    {
+      "name": "google-workspace-skus",
+      "path": "data/google-workspace-skus.csv",
+      "format": "csv", "mediatype": "text/csv", "encoding": "utf-8",
+      "schema": {"fields": [
+        {"name": "product_id", "type": "string"},
+        {"name": "sku_id", "type": "string"},
+        {"name": "sku_name", "type": "string"},
+        {"name": "published_price", "type": "string"},
+        {"name": "source_url", "type": "string", "format": "uri"}
+      ], "primaryKey": ["sku_id"]}
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+sku_id,edition,plan,currency,price_per_user_month,price_per_user_year,effective_from,checked_on,source_url,source_note
+1010020027,Business Starter,ANNUAL,EUR,6.80,81.60,2026-09-23,2026-10-10,https://workspace.google.com/intl/en_ie/pricing.html,"Annual toggle on; standard (struck-through) price, not the introductory offer"
+1010020028,Business Standard,ANNUAL,EUR,13.60,163.20,2026-09-23,2026-10-10,https://workspace.google.com/intl/en_ie/pricing.html,"Annual toggle on; standard (struck-through) price, not the introductory offer"
+1010020025,Business Plus,ANNUAL,EUR,21.10,253.20,2026-09-23,2026-10-10,https://workspace.google.com/intl/en_ie/pricing.html,"Annual toggle on; standard (struck-through) price, not the introductory offer"
+1010020027,Business Starter,FLEXIBLE,EUR,8.10,97.20,2026-10-10,2026-10-10,https://workspace.google.com/intl/en_ie/pricing.html,"Annual toggle off; standard (struck-through) price, not the introductory offer"
+1010020028,Business Standard,FLEXIBLE,EUR,16.20,194.40,2026-10-10,2026-10-10,https://workspace.google.com/intl/en_ie/pricing.html,"Annual toggle off; standard (struck-through) price, not the introductory offer"
+1010020025,Business Plus,FLEXIBLE,EUR,25.30,303.60,2026-10-10,2026-10-10,https://workspace.google.com/intl/en_ie/pricing.html,"Annual toggle off; standard (struck-through) price, not the introductory offer"

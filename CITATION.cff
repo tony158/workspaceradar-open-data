@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use these datasets, please cite them as below."
+title: "Google Workspace list prices in euros and Licensing API SKUs — open data"
+type: dataset
+authors:
+  - name: "WorkspaceRadar"
+    website: "https://workspaceradar.com/"
+license: CC-BY-4.0
+repository-code: "https://github.com/tony158/workspaceradar-open-data"
+url: "https://workspaceradar.com/google-workspace-pricing"
+date-released: 2026-10-23
+version: "2026-10-23"
+keywords:
+  - Google Workspace
+  - pricing
+  - list prices
+  - EUR
+  - licenses
+  - SKU
+  - Enterprise License Manager
+  - open-data
