@@ -2,8 +2,11 @@
 
 Two small, sourced datasets about Google Workspace licensing, published by
 [WorkspaceRadar](https://workspaceradar.com/) under **CC BY 4.0**. Every row names the
-Google page it was read from and the date it was last checked. The live, explained version is
-<https://workspaceradar.com/google-workspace-pricing>; this repository is the citable snapshot.
+Google page it was read from and the date it was last checked.
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23625450.svg)](https://doi.org/10.5281/zenodo.23625450)
+The live, explained version is <https://workspaceradar.com/google-workspace-pricing>; this
+repository is the citable snapshot, archived on Zenodo and mirrored as a Hugging Face dataset
+(<https://huggingface.co/datasets/tony158/google-workspace-list-prices-eur>).
 
 *Deutsch:* Google-Workspace-Listenpreise in Euro (Business Starter, Standard, Plus; Jahres- und
 Flexible-Tarif) und die SKU-IDs der Licensing API, jede Zeile mit Quelle und Prüfdatum. Lizenz
@@ -48,7 +51,8 @@ CSV files use `,` as separator, UTF-8, no BOM. JSON files wrap the same rows in 
 ## How to cite
 
 WorkspaceRadar (2026). *Google Workspace list prices in euros and Licensing API SKUs — open
-data.* <https://github.com/tony158/workspaceradar-open-data>. CC BY 4.0. See `CITATION.cff`.
+data.* <https://github.com/tony158/workspaceradar-open-data>. DOI: [10.5281/zenodo.23625450](https://doi.org/10.5281/zenodo.23625450)
+(concept DOI for all versions: 10.5281/zenodo.23625449). CC BY 4.0. See `CITATION.cff`.
 
 ## Licence
 
